@@ -26,10 +26,10 @@
 - [Overview](#overview)
 - [Dataset](#data)
 - [Sentiment Analysis Technique](#analysis_technique)
-- [Exploratory Data Analysis](#eda)
-- [Sentiment Analysis Overview](#sentiment_analysis_overview)
-- [Key Observations from Sentiment Analysis](#key_observations)
-
+- [Amazon User Experience and User Interface](#amazon)
+- [Flipkart User Experience and User Interface](#flipkart)
+- [Shopify User Experience and User Interface](#shopify)
+- [Disclaimer](#disclaimer) 😌
 
 <a id="intro"></a>
 <h2>Introduction</h2>
@@ -85,4 +85,64 @@ I used VADER to analyze sentiments expressed in user reviews. The following tabl
 
 <img src="images/flipkart-nyakaa-pie.jpg">
 
+<p align="justify">
+Based on the analysis, Shopify had the highest percentage of positive sentiments (96.2%), indicating a highly favorable user experience, particularly with its interface. Flipkart also displayed a significant positive response (86.2%), while Alibaba and Nykaa followed with 81.1% and 77.3%,  respectively. Amazon, although still favored by users, had a relatively higher proportion of negative sentiments (41.6%) compared to the others. The number of reviews are not the same so we can't outrightly say an app has the highest number of negative reviews. However, we can infer that Amazon has quite a high number of negative sentiments relative to the total number of reviews on the Amazon app on play store.
+</p>
+
 <img src="images/shopify-pie.jpg">
+
+<a id="alibaba"></a>
+<h2>Alibaba User Experience and User Interface</h2>
+<p align="justify">
+For the Alibaba e-commerce app, while the positive reviews highlighted product quality and customer service, the negative word cloud reveals issues with the app's functionality and reliability. Words like "refund," "money," and "time" suggest problems with transactions and delays. The 
+prominence of "supplier" indicates potential issues with seller reliability or communication. Users seem frustrated with the app's performance, as evidenced by terms like "use" and "still" appearing frequently. Customer service appears to be a pain point, with "inquiry" and "respond" being notable terms, implying difficulties in getting timely support.
+</p>
+
+<img src="images/alibaba-wordcloud.jpg">
+
+<a id="amazon"></a>
+<h2>Amazon User Experience and User Interface</h2>
+<p align="justify">
+The Amazon app, despite its convenience highlighted in positive reviews, faces criticism in several areas. The negative word cloud prominently features "customer service," suggesting that users are dissatisfied with support. "Delivery" and "order" are also prominent, indicating issues with 
+shipping and order fulfillment. The word "experience" is large, implying that many negative reviews focus on overall poor user experiences. Terms like "refund," "cancel," and "return" suggest problems with the post-purchase process. The presence of "app" and "interface" in the negative cloud indicates that some users find the application itself problematic or difficult to navigate.
+</p>
+
+<img src="images/amazon-wordcloud.jpg">
+
+<a id="flipkart"></a>
+<h2>Flipkart User Experience and User Interface</h2>
+<p align="justify">
+While Flipkart's positive reviews praised its user interface, the negative word cloud paints a different picture. "Interface" and "app" are prominent, suggesting that many users find the app difficult to use or buggy. "Loading" and "slow" indicate performance issues. Customer service 
+seems to be a major concern, with "customer" and "service" being large in the cloud. "Delivery" and "order" are also significant, pointing to problems with order fulfillment. The presence of "worst" and "bad" implies strong negative sentiment among some users. "Login" issues are also mentioned, suggesting authentication or account access problems.
+</p>
+
+<img src="images/flipkart-wordcloud.jpg">
+
+<a id="Nyakaa"></a>
+<h2>Nyakaa User Experience and User Interface</h2>
+<p align="justify">
+Nykaa's negative reviews focus heavily on product and delivery issues. "Product," "order," and "delivery" are among the largest words, indicating problems with what customers receive and how they receive it. "Customer care" is prominent, suggesting difficulties in resolving issues with 
+support. "Worst experience" appears as a phrase, implying some users have had particularly bad interactions with the app. "Refund" and "return" are notable, pointing to challenges in the post-purchase process. The repetition of "bad" and "worst" throughout the cloud indicates strong 
+negative sentiment among dissatisfied users.
+</p>
+
+<img src="images/nyakaa-wordcloud.jpg">
+
+<a id="shopify"></a>
+<h2>Shopify User Experience and User Interface</h2>
+<p align="justify">
+The Shopify app stands out as the only one in this set with a word cloud showing predominantly positive reviews. This suggests that it generally meets the needs of its users, who are likely to be sellers rather than buyers. The emphasis on words like "easy," "support," and "great" indicates that 
+users find the platform user-friendly and well-supported. However, the negative cloud does contain some critical terms, such as "bad," "terrible," and "experience", "bug" and so on which suggests that some users have encountered issues with the app. 
+</p>
+
+<img src="images/shopify-wordcloud.jpg">
+
+<a id="disclaimer"></a>
+<h2>Disclaimer</h2>
+<p align="justify">
+Disclaimer! Disclaimer! Disclaimer! <br>
+All analysis and inference are based on the sentiment analysis of user reviews and may not reflect the actual user experience on the respective e-commerce platforms. The analysis is intended to provide insights and identify potential areas for improvement based on user feedback. I am not responsible for any decisions made based on this analysis. Also, I am not affiliated with any of the e-commerce platforms mentioned in this project. This is all for practice and learning purposes. 
+</p>
+
+
+See you in the next one 😉😉
